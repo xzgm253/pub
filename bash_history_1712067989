@@ -1,0 +1,104 @@
+    1  rpm-ostree initramfs-etc --track=/etc/vconsole.conf
+    2  flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+    3  sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+    4  sudo rpm-ostree upgrade
+    5  sudo rpm-ostree upgrade --check
+    6  sudo rpm-ostree upgrade
+    7  sudo rpm-ostree status
+    8  sudo rpm-ostree upgrade 
+    9  sudo reboot 
+   10  sudo rpm-ostree status
+   11  sudo rpm-ostree upgrade --check
+   12  sudo rpm-ostree install htop
+   13  sudo rpm-ostree install tmux
+   14  sudo rpm-ostree status
+   15  htop
+   16  sudo reboot
+   17  sudo rpm-ostree status
+   19  sudo rpm-ostree initramfs-etc --track=/etc/vconsole.conf
+   20  sudo systemctl reboot 
+   21  sudo rpm-ostree upgrade --check
+   22  ostree remote refs fedora
+   23  ostree remote refs fedora | grep silverblue
+   24  ostree remote refs fedora | grep silverblue | grep $(uname -a)
+   25  ostree remote refs fedora | grep silverblue | grep $(uname -m)
+   26  ostree remote list
+   27  toolbox 
+   28  toolbox list 
+   29  buildah --version
+   30  podman --version
+   31  toolbox --version
+   32  sudo rpm-ostree status 
+   33  sudo rpm-ostree upgrade --check
+   34  sudo rpm-ostree upgrade
+   35  sudo systemctl reboot
+   36  sudo rpm-ostree status
+   37  sudo rpm-ostree upgrade --check 
+   38  sudo rpm-ostree upgrade
+   39  sudo flatpak list 
+   40  sudo flatpak search chrome
+   41  sudo flatpak search google
+   42  sudo flatpak install com.google.Chrome
+   43  sudo flatpak update 
+   44  sudo rpm-ostree search Virtualization
+   45  sudo rpm-ostree group search Virtualization
+   46  sudo rpm-ostree search group Virtualization
+   47  sudo dnf group info Virtualization
+   48  sudo rpm-ostree group info Virtualization
+   49  sudo rpm-ostree info Virtualization
+   50  sudo rpm-ostree search libvirt
+   51  sudo rpm-ostree group install Virtualization
+   52  sudo rpm-ostree install Virtualization
+   56  sudo rpm-ostree upgrade --check
+   57  sudo rpm-ostree upgrade
+   58  sudo rpm-ostree install virt-manager
+   59  sudo systemctl reboot
+   60  sudo rpm-ostree status 
+   61  sudo rpm-ostree rollback dabf4d6590df7ef6c1f6940f5e5d84e8fdbf2ea87720c57751b3aa140b6eac72
+   62  sudo systemctl reboot
+   63  sudo rpm-ostree status 
+   64  sudo rpm-ostree upgrade
+   65  sudo systemctl reboot
+   66  sudo dnf update -y && sudo dnf install -y virt-manager virt-install
+   67  virt-manager 
+   69  sudo rpm-ostree status 
+   70  toolbox list 
+   71  toolbox create virtu
+   72  toolbox enter virtu
+   73  toolbox list 
+   74  toolbox stop virtu
+   75  sudo flatpak search cockpit
+   76  sudo flatpak install org.cockpit_project.CockpitClient
+   77  sudo flatpak search prompt
+   78  sudo systemctl status cockpit
+   79  sudo systemctl status cockpit.socket
+   80  flatpak install --user --from https://nightly.gnome.org/repo/appstream/org.gnome.Prompt.Devel.flatpakref
+   81  sudo flatpak update 
+   82  prompt_
+   83  toolbox enter virtu
+   84  homectl 
+   85  homectl status
+   86  ssh -t git@github.com
+   87  sudo rpm-ostree upgrade --reboot 
+   88  sudo rpm-ostree upgrade
+   89  systemctl status rpm-ostreed.service 
+   90  sudo rpm-ostree upgrade
+   92  sudo rpm-ostree upgrade --check
+   93  sudo rpm-ostree upgrade
+   94  sudo systemctl reboot
+   96  sudo systemctl poweroff 
+   99  sudo rpm-ostree upgrade
+  100  sudo flatpak update 
+  101  sudo flatpak update -y
+  102  sudo flatpak update
+  103  sudo rpm-ostree upgrade
+  104  sudo systemctl reboot
+  105  sudo flatpak search keepassxc
+  107  tmux 
+  108  systemctl status sshd.service
+  128  sudo rpm-ostree update
+  129  sudo rpm-ostree upgrade --reboot
+  130  systemctl reboot 
+  131  sudo su -
+  132  sudo flatpak update 
+  133  sudo flatpak update -y
